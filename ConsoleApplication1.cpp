@@ -51,16 +51,7 @@ int main(){
 			add edi, 4
 		loop comparation_loop
 	};
-/*
-	for (size_t i = 0; i < array_size; i++){
-		int l = a[i];
-		int r = b[i];
-		if (l < r)
-			c[i] = r;
-		else
-			c[i] = l;
-	}
-*/
+
 	cout << endl;
 
 	for (size_t i = 0; i < array_size; i++)
